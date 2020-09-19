@@ -7,12 +7,12 @@ function MenuPane() {
         <nav className="nav">
             <ul className="menu-links">
                 <li>
-                    <a href="###">Portfolio</a>
+                    <a href="###">Home</a>
                     <span id="DC-info">
-                        <p>Development Projects</p>
+                        <p>...is where I want to be, this must be the place</p>
                     </span>
                 </li>
-
+                <li><a href="###">Portfolio</a></li>
                 <li><a href="###">About</a></li>
                 <li><a href="###">Resume</a></li>
                 <li><a href="###">Contact</a></li>

@@ -75,6 +75,10 @@ div.menu-pane {
       transition: 0.5s ease-in-out;
 }
 
+.menu-links li, a, span {
+  transition: 0.5s ease-in-out;
+}
+
 .menu-pane ul {
   padding: 10%;
   display: inline-block;
@@ -102,6 +106,7 @@ div.menu-pane {
 
 .menu-links li:hover a {
   color: #FFAB91;
+  font-size: 150%;
 }
 
 .menu-links li:first-child:hover a {
