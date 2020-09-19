@@ -72,10 +72,6 @@ div.menu-pane {
 }
 
 .menu-links li, a, span {
-      transition: 0.5s ease-in-out;
-}
-
-.menu-links li, a, span {
   transition: 0.5s ease-in-out;
 }
 
