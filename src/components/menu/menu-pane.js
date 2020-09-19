@@ -1,6 +1,10 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
+const link = {
+    display: 'block',
+}
+
 const MenuPane = () => {
     return (
         <div className="menu-pane">
@@ -11,7 +15,7 @@ const MenuPane = () => {
                         <p>...is where I want to be, this must be the place</p>
                     </span></li>
                     <li><Link to="/portfolio" exact >Portfolio</Link></li>
-                    <li><Link to="/about" exact >About</Link></li>
+                    <li><NavLink to="/about" exact style={link}>About</NavLink></li>
                     <li><Link to="/resume" exact >Resume</Link></li>
                     <li><Link to="/contact" exact >Contact</Link></li>
                     {/* NavLink would be used instead if using 'active styling' */}
