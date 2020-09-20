@@ -240,6 +240,18 @@ h2 {
   margin-left: 30%;
 }
 
+.osha-about-pic {
+  margin-top: -35%;
+  margin-left: 2%;
+
+  /* margin-bottom: 5% */
+}
+
+.osha-about-pic img {
+  width: 30%;
+  height: auto;
+}
+
 .resume {
   display: flex;
   flex-wrap: wrap;
@@ -257,3 +269,4 @@ h2 {
   height: 300%;
 
 }
+
