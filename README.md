@@ -1,3 +1,9 @@
+npm install
+npm install react-router-dom
+<!-- npm install --save video-react react react-dom redux -->
+npm install react-video
+npm install react-pdf
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
