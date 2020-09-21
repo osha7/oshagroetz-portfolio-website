@@ -9,10 +9,14 @@ export const Modal = ({
     modalRef,
     buttonRef,
     closeModal,
-    onSubmit,
-    id
+    id,
+    githubFrontend,
+    githubBackend,
+    github,
+    moreInfo
   }) => {
     return ReactDOM.createPortal(
+        
       <FocusTrap>
         <aside
           tag="aside"
@@ -39,7 +43,14 @@ export const Modal = ({
               </svg>
             </button>
             <div className="modal-body">
-              <MoreInfo id={id} closeModal={closeModal}/>
+              <MoreInfo 
+              id={id} 
+              closeModal={closeModal}
+              githubFrontend={githubFrontend}
+              githubBackend={githubBackend}
+              github={github}
+              moreInfo={moreInfo}
+              />
             </div>
           </div>
         </aside>

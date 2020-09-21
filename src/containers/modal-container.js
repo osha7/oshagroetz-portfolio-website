@@ -35,7 +35,7 @@ export class Container extends React.Component {
     };
     
     render() {
-        // console.log("modal", this.props, this.props.triggerText.header)
+    //    console.log("modal", this.props)
       return (
         <React.Fragment>
           <TriggerButton
@@ -52,6 +52,10 @@ export class Container extends React.Component {
               onKeyDown={this.onKeyDown}
               onClickOutside={this.onClickOutside}
               id={this.props.id}
+              githubFrontend={this.props.githubFrontend.githubFrontend}
+              githubBackend={this.props.githubBackend.githubBackend}
+              github={this.props.github.github}
+              moreInfo={this.props.moreInfo.moreInfo}
             />
           ) : null}
         </React.Fragment>

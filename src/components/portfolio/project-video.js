@@ -3,11 +3,16 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import ModalLink from '../../containers/modal-container'
 
-const Player = ({url, header})=> {
+const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo})=> {
   const triggerText = {header}
+  const githubFrontend1 = {githubFrontend}
+  const githubBackend1 =  {githubBackend}
+  const github1 = {github}
+  const moreInfo1 = {moreInfo}
+
   return (
     <div className="player" >
-      <h4>{<ModalLink triggerText={triggerText}/>}</h4>
+      <h4>{<ModalLink triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4>
         <ReactPlayer
         width="100%"
         // height="auto"
