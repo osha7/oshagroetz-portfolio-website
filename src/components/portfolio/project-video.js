@@ -1,11 +1,13 @@
 import React from 'react';
 // import { Player } from 'video-react';
 import ReactPlayer from 'react-player'
+import ModalLink from '../../containers/modal-container'
 
 const Player = ({url, header})=> {
+  const triggerText = {header}
   return (
     <div className="player" >
-      <h4>{header}</h4>
+      <h4>{<ModalLink triggerText={triggerText}/>}</h4>
         <ReactPlayer
         width="100%"
         // height="auto"

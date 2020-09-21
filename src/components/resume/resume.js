@@ -8,5 +8,5 @@ const Resume = () =>{
   )
 }
 
-export default Resume
+export default Resume;
 

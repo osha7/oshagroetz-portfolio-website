@@ -21,7 +21,7 @@ body {
 
 .hamburger-icon {
   position: absolute;
-  z-index: 1;
+  z-index: 21;
   top: 5vh;
   left: 5vw;
   padding-bottom: 2vh;
@@ -68,9 +68,10 @@ div.menu-pane {
   transform: translateX(-105vw);
   transform-origin: (0, 0);
   width: 100vw;
-  height: 100%;
+  height: 150%;
   transition: 0.6s ease-in-out;
   display: block;
+  z-index: 20;
 }
 
 .menu-pane p {
@@ -155,7 +156,7 @@ display: block;
 
 input.hamburger-checkbox {
   position: absolute;
-  z-index: 3;
+  z-index: 23;
   top: 5vh;
   left: 5vw;
   width: 10vw;
@@ -172,8 +173,13 @@ h1 {
   color: #FFAB91;
   font-size: 52px;
 }
+.body-text h1 {
+  position: relative;
+  z-index: 40;
+}
+
 .osha-pic {
-  margin-top: -18%;
+  margin-top: -14%;
   margin-left: -12%;
   display: grid;
   place-items: start center;
@@ -230,7 +236,7 @@ h2 {
   justify-content: center;
   flex: 0 1 150px;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   margin-right: 5%;
 }
 
@@ -241,7 +247,7 @@ h2 {
 }
 
 .osha-about-pic {
-  margin-top: -35%;
+  margin-top: -30%;
   margin-left: 2%;
 
   /* margin-bottom: 5% */
@@ -259,14 +265,98 @@ h2 {
   /* flex: 0 1 150px; */
   width: 100%;
   margin-bottom: 5%;
-  margin-right: 5%;
+  margin-left: -10%;
 }
 
 #elfsight {
-  margin-top: 10%;
-  margin-left: 23%;
-  width: 100%;
-  height: 300%;
+  margin-top: 3%;
+  margin-left: 22%;
+  width: 30%;
+  height: 40%;
+  /* z-index: -2; */
 
 }
 
+.jsx-780294638 {
+  display: none;
+}
+
+/* -----------------------MODAL------------------- */
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (min-width: 500px) {
+  /* Center the Modal! */
+  .modal-area {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    max-width: 40em;
+    max-height: calc(100% - 1em);
+  }
+}
+
+._modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  line-height: 1;
+  background: #f6f6f7;
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.scroll-lock {
+  overflow: hidden;
+  margin-right: 17px;
+}
+
+/* -----------------------END MODAL------------------- */
