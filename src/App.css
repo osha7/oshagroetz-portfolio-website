@@ -242,7 +242,7 @@ h2 {
 
 .me {
   /* place-content: center; */
-  margin-top: 18%;
+  margin-top: 15%;
   margin-left: 30%;
 }
 
@@ -300,6 +300,10 @@ h2 {
   width: 100%;
   justify-self: right;
   background-color: black;
+}
+
+.contact-page i {
+  color: black;
 }
 
 /* -----------------------MODAL------------------- */
