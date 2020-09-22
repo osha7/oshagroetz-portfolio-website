@@ -5,6 +5,7 @@ export default function About() {
         <div> 
             <div className="me">
                 <h1>about me...</h1>
+                <br />
                 <h2>Pro-Skills:</h2>
                 {/* <h2>Plugged-In:</h2> */}
                 Proactive individual with strong skills in project management, identifying and troubleshooting critical issues and team collaboration. 
