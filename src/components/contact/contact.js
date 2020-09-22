@@ -12,9 +12,9 @@ export default function Contact() {
                 <a href="https://medium.com/@ogroetz" target="_blank" title="Medium Blog" ><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a>&nbsp;&nbsp;
             </div>
             <div className="contact-info">
-                <p><strong>Osha Groetz</strong><br />
-                ogroetz@gmail.com<br />
-                917-477-9485</p>
+                <p><strong>Osha Groetz</strong><br /></p>
+                <a href = "mailto: ogroetz@gmail.com">ogroetz@gmail.com</a>
+                <p>917-477-9485</p>
             </div>
         </div>
     )
