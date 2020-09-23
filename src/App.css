@@ -159,8 +159,6 @@ display: block;
   padding: 5px;
 }
 
-
-
 input.hamburger-checkbox {
   position: absolute;
   z-index: 23;
@@ -207,6 +205,8 @@ h2 {
   margin-top: -20px;
   margin-bottom: -5px;
 }
+/* ---------------------END HOME, etc.---------------------- */
+/* ---------------------PORTFOLIO---------------------- */
 
 .portfolio {
   /* margin-top: -50px; */
@@ -246,7 +246,8 @@ h2 {
 .player:nth-child(2) {
   margin-top: 6%;
 }
-
+/* ---------------------END PORTFOLIO---------------------- */
+/* ---------------------ABOUT---------------------- */
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -330,9 +331,8 @@ h2 {
 }
 
 .links {
-
-  margin-top: -3%;
-  margin-left: -15%;
+  margin-top: -17%;
+  /* margin-left: -15%; */
   /* float: inherit; */
 }
 
@@ -341,12 +341,19 @@ h2 {
   /* margin-top: -5%; */
   margin-left: 1%; 
   /* clear: both; */
- 
-  
 }
 
 .contact-info p strong {
   font-size: x-large;
+}
+
+#message {
+  width: 100%;
+  height: 100px;
+}
+
+.test-mailing {
+  /* margin-top: -%; */
 }
 /* -------------------END contact-------------------------- */
 
@@ -359,12 +366,16 @@ h2 {
   font-size: 13px;
   cursor: pointer;
   outline: 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .modal-button:hover {
-  background-color: whitesmoke;
+  background-color: #9fa8a3;
   color: black;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .modal-cover {
@@ -451,3 +462,5 @@ h2 {
 }
 
 /* -----------------------END MODAL------------------- */
+
+

@@ -13,14 +13,14 @@ class MenuPane extends React.Component {
         <div id="menu-pane" className="menu-pane">
             <nav className="nav">
                 <ul className="menu-links">
-                    <li><Link to="/" exact onClick={this.handleOnClick} >Home</Link>
+                    <li><Link to="/" onClick={this.handleOnClick} >Home</Link>
                     <span id="DC-info">
                         <p>...is where I want to be, this must be the place</p>
                     </span></li>
-                    <li><Link to="/portfolio" exact onClick={this.handleOnClick} >Portfolio</Link></li>
-                    <li><Link to="/about" exact onClick={this.handleOnClick} >About</Link></li>
-                    <li><Link to="/resume" exact onClick={this.handleOnClick} >Resume</Link></li>
-                    <li><Link to="/contact" exact onClick={this.handleOnClick} >Contact</Link></li>
+                    <li><Link to="/portfolio" onClick={this.handleOnClick} >Portfolio</Link></li>
+                    <li><Link to="/about" onClick={this.handleOnClick} >About</Link></li>
+                    <li><Link to="/resume" onClick={this.handleOnClick} >Resume</Link></li>
+                    <li><Link to="/contact" onClick={this.handleOnClick} >Contact</Link></li>
                     {/* NavLink would be used instead if using 'active styling' style={link} with const link = {} */}
                 </ul>
             </nav>
