@@ -83,11 +83,11 @@ class Email extends React.Component {
                 <div>
                     <label htmlFor="name">Name</label>
                     <input className="form-control email-inputs" name="user_name" type="text" 
-                    id="name" onChange={this.nameChange} required/>
+                    id="name" onChange={this.nameChange} value={this.state.name} required/>
               
                     <label htmlFor="email">Email</label>
                     <input className="form-control email-inputs" name="user_email" type="email"
-                    id="email" onChange={this.emailChange} required/>
+                    id="email" onChange={this.emailChange} value={this.state.email} required/>
                 </div>
                 <br />
                 <label htmlFor="message">Message</label>
@@ -101,6 +101,7 @@ class Email extends React.Component {
                     className="email-text-area form-control"
                     rows="15"
                     cols="20"
+                    value={this.state.feedback}
                     />
                 </div>
 
