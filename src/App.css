@@ -372,12 +372,15 @@ h2 {
   cursor: pointer;
   outline: 0;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  animation: pulse 5s infinite;
+  animation: pulse 10s infinite;
   border: none;
 }
 
 @keyframes pulse {
   0% {
+    background-color: grey;
+  }
+  50% {
     background-color: black;
   }
   100% {
