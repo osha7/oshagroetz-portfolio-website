@@ -96,7 +96,7 @@ class Email extends React.Component {
                     id="message"
                     name="message"
                     onChange={this.messageChange}
-                    placeholder="Write your message here"
+                    placeholder="Tell me about it"
                     required
                     className="email-text-area form-control"
                     rows="15"

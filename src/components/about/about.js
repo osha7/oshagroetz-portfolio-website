@@ -8,7 +8,7 @@ export default function About() {
                 <Me />
             </div>
             <div className="osha-about-pic">
-        {/* <img src={'https://res.cloudinary.com/djsz02nwd/image/upload/v1600640067/Asset_1_nlnrtm.png'} alt="osha" className="img-responsive"/> */}
+        <img src={'https://res.cloudinary.com/djsz02nwd/image/upload/v1602287938/Osha-outside_kqj9gf.jpg'} alt="osha" className="img-responsive"/>
         </div>
         </div>
     )

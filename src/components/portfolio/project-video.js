@@ -12,7 +12,7 @@ const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo})=
 
   return (
     <div className="player" >
-      <h4>{<ModalLink triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4>
+      <div className="bounce-3"><h4>{<ModalLink triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4></div>
         <ReactPlayer
         width="100%"
         // height="auto"

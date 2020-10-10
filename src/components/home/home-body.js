@@ -11,7 +11,7 @@ function HomeBody() {
           {/* <p>Fall 2020</p> */}
         </div>
         <div className="osha-pic">
-        <img src={'https://res.cloudinary.com/djsz02nwd/image/upload/v1600472255/Asset_2_qwg54d.png'} alt="oshag" className="img-responsive"/>
+        <img src={'https://res.cloudinary.com/djsz02nwd/image/upload/v1602290434/osha_pic_personal_website_jepo4g.jpg'} alt="oshag" className="img-responsive"/>
         </div>
     </>
   );
