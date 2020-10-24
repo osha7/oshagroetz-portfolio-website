@@ -10,6 +10,7 @@
     "focus-trap": "^6.0.1",
     "focus-trap-react": "^8.0.0",
     "font-awesome": "^4.7.0",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
