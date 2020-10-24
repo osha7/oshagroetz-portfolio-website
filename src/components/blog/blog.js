@@ -46,7 +46,7 @@ export default class Blog extends React.Component {
                         </div>
                         <h2 className="blog-post__title">{blog.title}</h2>
                         {/* <p>BLOG POST CONTENT</p> */}
-                        <a href={blog.link} className="blog-post__cta">Read Article...</a>
+                        <a href={blog.link} className="blog-post__cta" target="_blank">Read Article...</a>
                     </div>
                 </div>
             </div>

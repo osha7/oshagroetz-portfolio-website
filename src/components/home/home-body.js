@@ -7,7 +7,7 @@ function HomeBody() {
     <>
         <div className="body-text">
           <h1>Osha Groetz</h1>
-          <h2>Software Engineer</h2>
+          <h2 class="home-header">Software Engineer</h2>
           {/* <p>Fall 2020</p> */}
         </div>
         <div className="osha-pic">
