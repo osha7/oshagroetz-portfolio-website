@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from './project-video'
+import '../../css/portfolio.css'
 
 export default function Portfolio() {
     return (

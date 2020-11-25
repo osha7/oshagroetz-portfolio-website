@@ -206,48 +206,6 @@ h1 {
 
 
 /* ---------------------END HOME, etc.---------------------- */
-/* ---------------------PORTFOLIO---------------------- */
-
-.portfolio {
-  /* margin-top: -50px; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  /* flex: 1 1 150px;  */
-  /*  Stretching: */
-  flex: 0 1 150px; /*  No stretching: */
-
-  /* padding: 10px; */
-  width: 100%;
-  /* margin-top: 2%; */
-  margin-bottom: 5%;
-  margin-right: 5%;
-  /* margin-left: -1%; */
-  
-}
-
-.player {
-  margin-top: 2%;
-  margin-right: 2%;
-  margin-left: 2%;
-  
-  width: 30%;
-  height: auto;
-  /* background-color: #9fa8a3; */
-  background-color: lightgray;
-  border-top: 2px solid;
-  border-color: black;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.player:first-child {
-  margin-top: 6%;
-}
-.player:nth-child(2) {
-  margin-top: 6%;
-}
-/* ---------------------END PORTFOLIO---------------------- */
 /* ---------------------ABOUT---------------------- */
 .about {
   display: flex;
