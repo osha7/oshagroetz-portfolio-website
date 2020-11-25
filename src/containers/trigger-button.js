@@ -20,13 +20,14 @@ import React from 'react';
 
 const Trigger = ({ triggerText, buttonRef, showModal }) => {
     return (
+        
         <button
-            className="modal-button"
-            ref={buttonRef}
-            onClick={showModal}
-            >
-                More Info: &nbsp; &nbsp;{triggerText}
-            </button>
+        className="modal-button"
+        ref={buttonRef}
+        onClick={showModal}
+        >
+        More Info
+        </button>
     )
 }
 

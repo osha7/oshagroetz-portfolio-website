@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Libre Caslon Text;
 }
 
 /* html{
@@ -72,28 +73,19 @@ img {
 }
 .bounce-3 {
     margin-left: -60%;
+    overflow-wrap: normal;
 }
 
-.bounce-3 h4{
-    display: block;
-    color: rgba(138, 109, 109, .5);
 
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin: .5rem 0;
-    
-    /* background: -webkit-linear-gradient( #ff00ff, #ff0099);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; */
-}
 
-.blog-post__title {
+.project__title {
     font-size: 2.5rem;
     margin: 1.5rem 0 2rem;
+    width: 50%;
     /* text-transform: uppercase; */
     /* color: #4facfe; */
     /* color: #00f2fecc */
-    background: -webkit-linear-gradient(0.5turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
+    background: -webkit-linear-gradient(1turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -104,7 +96,7 @@ img {
     color: rgba(0,0,0,.7)
 }
 
-.blog-post__cta {
+.modal-button {
     display: inline-block;
     padding: 1rem 3rem;
     letter-spacing: 1px;
@@ -115,13 +107,16 @@ img {
     /* background-image: linear-gradient(to left,white, rgb(138, 109, 109)); */
     border-radius: .8rem;
     text-decoration: none;
+    border-style: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 
 .modal-button:hover {
     background-image: linear-gradient(to right, white, rgb(138, 109, 109));
     color: rgb(138, 109, 109);
-    height: 200%;
-    font-size: 22px;
+    /* height: 400%; */
+    font-size: 24px;
     font-weight: 600;
     padding-right: 1em;
     /* text-justify: right; */
@@ -129,29 +124,29 @@ img {
 }
 
 @media screen and (max-width: 1068px) {
-    .blog-post {
+    .player {
         max-width: 80rem;
     }
 
-    .blog-post__img {
+    .youtube-player {
         min-width: 30rem;
         max-width: 30rem;
     }
 }
 
 @media screen and (max-width: 868px) {
-    .blog-post {
+    .player {
         padding: 2.5rem;
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .blog-post {
+    .player {
        max-width: 70rem;
     }
 
-    .blog-post__img {
+    .youtube-player {
         min-width: 100%;
         max-width: 100%;
         transform: translate(0, -8rem);
