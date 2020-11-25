@@ -27,7 +27,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-color: white;
+    /* background: linear-gradient(-90deg,  white, rgb(138, 109, 109)); */
     margin-bottom: -10rem;
     padding: 0 5rem 0 10rem;
     /* padding: 0 1.5rem; */
@@ -37,11 +39,12 @@ img {
     width: 100%;
     max-width: 98rem;
     padding: 5rem;
-    background-color: #fff;
-    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+    background-color: white;
+    /* background: linear-gradient(180deg,  white, rgb(138, 109, 109)); */
+    box-shadow: 0 1.4rem 8rem rgba(138, 109, 109);
     display: flex;
     align-items: center;
-    border-radius: .8rem;
+    /* border-radius: .8rem; */
    
 }
 
@@ -51,7 +54,7 @@ img {
     max-width: 35rem;
     height: 20rem;
     transform: translate(-8rem);
-    position: relative
+    position: relative;
 }
 
 .blog-post__img img {
@@ -60,6 +63,7 @@ img {
     object-fit: fill;
     display: block;
     border-radius: .8rem;
+    /* box-shadow: 0 1.4rem 8rem rgba(138, 109, 109); */
 }
 
 .blog-post__img::before{
@@ -77,18 +81,25 @@ img {
 }
 .blog-post__date span{
     display: block;
-    color: rgba(0,0,0,.5);
+    color: rgba(138, 109, 109, .5);
+
     font-size: 1.6rem;
     font-weight: 600;
     margin: .5rem 0;
+    /* background: -webkit-linear-gradient( #ff00ff, #ff0099);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .blog-post__title {
     font-size: 2.5rem;
     margin: 1.5rem 0 2rem;
     /* text-transform: uppercase; */
-    color: #4facfe;
+    /* color: #4facfe; */
     /* color: #00f2fecc */
+    background: -webkit-linear-gradient(0.5turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .blog-post__text{
@@ -99,18 +110,19 @@ img {
 
 .blog-post__cta {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1.2rem;
     color: #fff;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-color:  rgb(138, 109, 109);
+    /* background-image: linear-gradient(to left,white, rgb(138, 109, 109)); */
     border-radius: .8rem;
     text-decoration: none;
 }
 
 .blog-post__cta:hover {
-    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+    background-image: linear-gradient(to left, white, rgb(138, 109, 109));
 }
 
 @media screen and (max-width: 1068px) {

@@ -67,7 +67,8 @@ body {
 
 div.menu-pane {
   /* background-color: #9fa8a3; */
-  background-color: gray;
+  /* background-color:rgb(138, 109, 109); */
+  background: linear-gradient(90deg, rgb(138, 109, 109), white);
   position: absolute;
   transform: translateX(-105vw);
   transform-origin: (0, 0);
@@ -203,10 +204,7 @@ h1 {
     /* transform: scaleX(-1); */
 }
 
-h2 {
-  margin-top: 10px;
-  margin-bottom: -5px;
-}
+
 /* ---------------------END HOME, etc.---------------------- */
 /* ---------------------PORTFOLIO---------------------- */
 
