@@ -56,7 +56,7 @@ img {
     height: 20rem;
     transform: translate(30rem);
     position: relative;
-    box-shadow: 0 1.4rem 8rem rgba(138, 109, 109);
+    box-shadow: 0 1.4rem 2rem rgba(138, 109, 109);
     border-radius: .8rem;
     overflow: hidden;
 }
@@ -85,7 +85,8 @@ img {
     /* text-transform: uppercase; */
     /* color: #4facfe; */
     /* color: #00f2fecc */
-    background: -webkit-linear-gradient(1turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
+    background: -webkit-linear-gradient(.5turn, #00ff66, #00ffff, #6e0dd0, #099fff);
+    /* background: -webkit-linear-gradient(1turn, #e6fb04, #ff6600, #ff00ff, #ff0099); */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -110,6 +111,7 @@ img {
     border-style: none;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
+    box-shadow: 0 1rem 2rem rgba(138, 109, 109);
 }
 
 .modal-button:hover {
