@@ -6,20 +6,15 @@ export default function About() {
             <div className="me">
                     <h1>about me...</h1>
                     <br />
-                    {/* <h2>Pro-Skills:</h2> */}
-                    {/* <h2>Plugged-In:</h2> */}
-                    Proactive individual with strong skills in project management, identifying and troubleshooting critical issues and team collaboration. 
-                    Possessing an acute eye for design & marketing with a passion for innovative tech. Experienced in React.JS and Ruby on Rails based programming with a background in business development and start-up growth.
-                    <br/><br/>With a background in fashion and restaurants, at the start of 2020 I realized it was time to make a change.
-                    Thanks to Flatiron Schools unbelievable Software Engineering program, and having graduated in September 2020, I'm now starting a new life in coding.
+                    Technical Skills: Javascript, ReactJS, Redux, Redux Thunk, Ruby, Sinatra, Ruby on Rails, SQL, PostgreSQL, Axios, Adobe Ps/Ai/Id
+                    <br/><br/>My background ranges from having been a partner in a restaurant/cafe chain as well having been formally trained in Fashion Design. While running our restaurants, I developed the company's brand, designing all of our menu boards, graphics and our wholesale packaging. I loved learning and working on the backend of the website to update menu items, locations, and press releases.
+                    <br/><br/>At the start of 2020, I decided that as the world was changing, so would I. I knew making a change would involve a career where I would get to combine design and technology. 
+                    I attended Flatiron Schools unbelievable Software Engineering program in April 2020, and have recently graduated in September 2020.
+                    I have strong skills in project management, identifying and troubleshooting critical issues and team collaboration. 
+                    My background in business development and start-up growth will be an asset to my next role.
                     <br/><br/>
-                    Technical Skills: Ruby, Sinatra, Ruby on Rails, SQL, PostgreSQL, Javascript, React, Redux, Redux Thunk, Axios, Adobe Ps/Ai/Id, Quickbooks
-
-                    <br/><br/>
-                    {/* <h2>At Home:</h2> */}
-                    {/* <h2>Un-Plugged:</h2> */}
                     Originally hailing from New York/New Hampshire: My husband, our 4 year old Shiba Inu, Yoshi, and I currently live in Denver, CO. 
-                    Currently, I'm in search of a Software Engineering REMOTE position - Junior/Entry Level.
+                    I'm in search of a Software Engineering REMOTE position - Junior/Entry Level - Open to Relocation. 
                     
                 <br />
 

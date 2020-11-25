@@ -126,7 +126,9 @@ img {
     color: rgb(138, 109, 109);
     font-size: 22px;
     font-weight: 600;
-    text-justify: right;
+    padding-right: 1em;
+    /* text-justify: right; */
+   
 }
 
 @media screen and (max-width: 1068px) {
