@@ -275,7 +275,7 @@ h1 {
 .osha-about-pic img {
   width: 20%;
   height: auto;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 1.4rem 8rem rgba(138, 109, 109);
 }
 /* -----------------------Resume------------------- */
 .resume {
