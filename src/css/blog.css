@@ -123,6 +123,10 @@ img {
 
 .blog-post__cta:hover {
     background-image: linear-gradient(to left, white, rgb(138, 109, 109));
+    color: rgb(138, 109, 109);
+    font-size: 22px;
+    font-weight: 600;
+    text-justify: right;
 }
 
 @media screen and (max-width: 1068px) {
