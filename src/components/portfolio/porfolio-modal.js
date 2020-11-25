@@ -10,6 +10,7 @@ export const Modal = ({
     buttonRef,
     closeModal,
     id,
+    website,
     githubFrontend,
     githubBackend,
     github,
@@ -27,7 +28,7 @@ export const Modal = ({
           onClick={onClickOutside}
           onKeyDown={onKeyDown}
         >
-          <div className="modal-area" ref={modalRef} id={id}>
+          <div className="modal-area med-glow" ref={modalRef} id={id}>
             <button
               ref={buttonRef}
               aria-label="Close Modal"
@@ -46,6 +47,7 @@ export const Modal = ({
               <MoreInfo 
               id={id} 
               closeModal={closeModal}
+              website={website}
               githubFrontend={githubFrontend}
               githubBackend={githubBackend}
               github={github}

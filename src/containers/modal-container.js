@@ -35,14 +35,13 @@ export class Container extends React.Component {
     };
     
     render() {
-    //    console.log("modal", this.props)
+   console.log("modal", this.props)
       return (
         <div>
           <h2 className="project__title">{this.props.triggerText.header}</h2>
           <TriggerButton
             showModal={this.showModal}
             buttonRef={(n) => (this.TriggerButton = n)}
-            triggerText={this.props.triggerText.header}
           />
           {this.state.isShown ? (
             <Modal
@@ -53,6 +52,7 @@ export class Container extends React.Component {
               onKeyDown={this.onKeyDown}
               onClickOutside={this.onClickOutside}
               id={this.props.id}
+              website={this.props.website.website}
               githubFrontend={this.props.githubFrontend.githubFrontend}
               githubBackend={this.props.githubBackend.githubBackend}
               github={this.props.github.github}

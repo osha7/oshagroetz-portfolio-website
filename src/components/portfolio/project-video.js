@@ -3,12 +3,13 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import ModalLink from '../../containers/modal-container'
 
-const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo})=> {
+const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo, website})=> {
   const triggerText = {header}
   const githubFrontend1 = {githubFrontend}
   const githubBackend1 =  {githubBackend}
   const github1 = {github}
   const moreInfo1 = {moreInfo}
+  const website1 = {website}
 
   return (
     <div className="project-box">
@@ -29,7 +30,7 @@ const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo})=
           // onError={() => console.log('onError callback')}
         />
         <div className="bounce-3">
-          <h4>{<ModalLink triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4>
+          <h4>{<ModalLink website={website1} triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4>
         </div>
         
           
