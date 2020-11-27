@@ -30,7 +30,7 @@ export default class Blog extends React.Component {
         console.log(this.state)
         let blogArray = this.state.blogs
         const blogItems = blogArray.map(blog => (
-            console.log(blog),
+            // console.log(blog),
             // console.log(blog, blog.pubDate.split(' ')[0]),
             // console.log(blog, blog.content.split(".")[0], blog.content.split(">")[0].includes('<p')),
             <div className="blog-body"> 
@@ -46,7 +46,7 @@ export default class Blog extends React.Component {
                         </div>
                         <h2 className="blog-post__title">{blog.title}</h2>
                         {/* <p>BLOG POST CONTENT</p> */}
-                        <a href={blog.link} className="blog-post__cta" target="_blank">Read Article...</a>
+                        <a href={blog.link} className="blog-post__cta" target="_blank" rel="noopener noreferrer" >Read Article...</a>
                     </div>
                 </div>
             </div>

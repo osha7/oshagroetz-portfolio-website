@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: Libre Caslon Text;
+    /* font-family: Libre Caslon Text; */
 }
 /* html{
     font-family: 'Roboto', sans-serif;
@@ -21,6 +21,7 @@ img {
 
 .portfolio {
     /* height: 50%; */
+    
     padding: .5rem;
      
 }
@@ -115,7 +116,9 @@ img {
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     box-shadow: 0 1rem 2rem rgba(138, 109, 109);
+    font-family: Libre Caslon Text;
 }
+
 
 .modal-button:hover {
     background-image: linear-gradient(to right, white, rgb(138, 109, 109));
