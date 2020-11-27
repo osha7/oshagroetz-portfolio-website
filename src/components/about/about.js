@@ -5,6 +5,7 @@ export default function About() {
     return (
         <div className="about-container"> 
             <div className="about">
+                
                 <Me />
             </div>
             <div className="osha-about-pic">

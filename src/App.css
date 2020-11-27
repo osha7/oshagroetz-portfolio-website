@@ -209,9 +209,12 @@ h1 {
 
 .me {
   /* place-content: center; */
-  
   margin-top: 7em;
   margin-left: 26em;
+}
+
+.me p {
+  margin-right: 5em;
 }
 
 .osha-about-pic {
@@ -228,9 +231,6 @@ h1 {
   margin-bottom: 10em;
 }
 
-.me p {
-  margin-right: 5em;
-}
 
 /* -----------------------Resume------------------- */
 .resume {
