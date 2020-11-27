@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Libre Caslon Text;
+    
 }
 
+body{
+    font-family: Libre Caslon Text;
+}
 /* html{
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
