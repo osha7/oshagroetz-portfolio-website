@@ -175,6 +175,12 @@ input.hamburger-checkbox {
 .nav {
   margin-top: 6em;
 }
+@media only screen 
+   and (min-width : 1600px) {
+  .nav {
+    margin-top: 10em;
+  }
+}
 
 h1 {
   background: black;
@@ -199,14 +205,14 @@ h1 {
 @media only screen 
    and (min-width : 1600px) {
   .about h1 {
-    margin-top: 3em;
+    margin-top: 5em;
   }
   .me {
     /* place-content: center; */
-    margin-top: 10em;
+    margin-top: 15em;
   }
   .osha-about-pic {
-    margin-top: -20em;
+    margin-top: -15em;
   
   }
   
