@@ -20,6 +20,8 @@ h2 {
   border-radius: .8rem; */
 }
 
+
+
 .glow::before, .glow::after{
   content: '';
   position: absolute;

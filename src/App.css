@@ -195,6 +195,24 @@ h1 {
 
 /* ---------------------END HOME, etc.---------------------- */
 /* ---------------------ABOUT---------------------- */
+
+@media only screen 
+   and (min-width : 1600px) {
+  .about h1 {
+    margin-top: 3em;
+  }
+  .me {
+    /* place-content: center; */
+    margin-top: 10em;
+  }
+  .osha-about-pic {
+    margin-top: -20em;
+  
+  }
+  
+  
+}
+
 .about{
   display: flex;
   flex-wrap: wrap;
