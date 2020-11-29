@@ -178,7 +178,7 @@ input.hamburger-checkbox {
 @media only screen 
    and (min-width : 1600px) {
   .nav {
-    margin-top: 10em;
+    margin-top: 20em;
   }
 }
 

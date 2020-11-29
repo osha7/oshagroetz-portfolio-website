@@ -35,7 +35,7 @@ export class Container extends React.Component {
     };
     
     render() {
-   console.log("modal", this.props)
+  //  console.log("modal", this.props)
       return (
         <div>
           <h2 className="project__title">{this.props.triggerText.header}</h2>

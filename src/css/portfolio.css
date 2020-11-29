@@ -7,35 +7,24 @@
     
 }
 
-body{
-    /* font-family: Libre Caslon Text; */
-}
-/* html{
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
-
-img {
-    width: 100%;
-} */
-
 .portfolio {
-    /* height: 50%; */
-    
-    padding: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
      
 }
 
 .project-box {
     width: 90%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 35vh;
+    
     /* background-color: #eee; */
     background-color: white;
     /* background: linear-gradient(-90deg,  white, rgb(138, 109, 109)); */
-    margin-bottom: -12rem;
+    margin: 10em 8em 10em 0;
+    /* margin-bottom: -12rem; */
     padding: 0 5rem 0 10rem;
     /* padding: 0 1.5rem; */
 }
@@ -43,7 +32,7 @@ img {
 .player {
     width: 100%;
     max-width: 98rem;
-    padding: 5rem;
+    padding: 5em 0 5em 7em;
     background-color: white;
     /* background: linear-gradient(180deg,  white, rgb(138, 109, 109)); */
     box-shadow: 0 1.4rem 8rem rgba(138, 109, 109);
@@ -52,7 +41,7 @@ img {
     /* border-radius: .8rem; */
    
 }
-/* ------------------------------- */
+
 .youtube-player {
     
     min-width: 35rem;
@@ -66,7 +55,7 @@ img {
 }
 
 .youtube-player::before{
-    content: '';
+    /* content: ''; */
     width: 100%;
     height: 100%;
     position: absolute;

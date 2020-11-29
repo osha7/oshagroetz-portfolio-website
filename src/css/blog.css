@@ -6,18 +6,9 @@
     box-sizing: border-box;
 }
 
-/* html{
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
-
-img {
-    width: 100%;
-} */
-
 .blog {
     /* height: 50%; */
-    padding: .5rem;
+    padding: .5em;
      
 }
 
@@ -30,8 +21,8 @@ img {
     /* background-color: #eee; */
     background-color: white;
     /* background: linear-gradient(-90deg,  white, rgb(138, 109, 109)); */
-    margin-bottom: -13rem;
-    padding: 0 5rem 0 10rem;
+    margin-bottom: -13em;
+    padding: 0 5em 0 10em;
     /* padding: 0 1.5rem; */
 }
 

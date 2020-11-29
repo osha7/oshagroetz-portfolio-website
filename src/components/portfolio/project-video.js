@@ -14,7 +14,8 @@ const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo, w
   return (
     <div className="project-box">
       <div className="player" >
-        <ReactPlayer className="youtube-player"
+        <div className="youtube-player">
+        <ReactPlayer 
           width="100%"
           // height="auto"
           // default width 640px height 360px
@@ -28,7 +29,7 @@ const Player = ({url, header, githubFrontend, githubBackend, github, moreInfo, w
           // onPause={() => console.log('onPause callback')}
           // onEnded={() => console.log('onEnded callback')}
           // onError={() => console.log('onError callback')}
-        />
+        /></div>
         <div className="bounce-3">
           <h4>{<ModalLink website={website1} triggerText={triggerText} githubFrontend={githubFrontend1} githubBackend={githubBackend1} github={github1} moreInfo={moreInfo1} />}</h4>
         </div>
