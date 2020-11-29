@@ -4,7 +4,7 @@ import '../../css/portfolio.css'
 
 export default function Portfolio() {
     return (
-        <div>
+        <>
             <div className="portfolio">
                 <Video className="wtc-video" url="https://youtu.be/DLSmIAWm7AU" header={"Women Connect Tech - React.JS/Rails"} website={""} githubFrontend={"https://github.com/osha7/women-connect-tech-frontend"} githubBackend={"https://github.com/osha7/women-connect-tech-api"}
                 moreInfo={"My favorite program I’ve built. WCT is a platform to connect women in engineering & raise the overall percentages of women in technology where we currently only hold approximately 25% of the available positions (& only 12% in Software Engineering, specifically)."} />
@@ -18,6 +18,6 @@ export default function Portfolio() {
                 moreInfo={"First Flatiron Project! CLI-GEM incorporating a Nokogiri scrape of a Conde Nast Traveler article on the Denver vegan scene.  And no, I'm not 'that' kind of vegan: Eat what makes you happy!"} />
 
             </div>
-        </div>
+        </>
     )
 }

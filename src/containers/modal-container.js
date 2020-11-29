@@ -37,8 +37,8 @@ export class Container extends React.Component {
     render() {
   //  console.log("modal", this.props)
       return (
-        <div>
-          <h2 className="project__title">{this.props.triggerText.header}</h2>
+        <>
+          <h2 className="project-title">{this.props.triggerText.header}</h2>
           <TriggerButton
             showModal={this.showModal}
             buttonRef={(n) => (this.TriggerButton = n)}
@@ -59,7 +59,7 @@ export class Container extends React.Component {
               moreInfo={this.props.moreInfo.moreInfo}
             />
           ) : null}
-        </div>
+        </>
       );
     }
   }
