@@ -11,6 +11,7 @@
     "focus-trap-react": "^8.0.0",
     "font-awesome": "^4.7.0",
     "moment": "^2.29.1",
+    "npm": "^10.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
@@ -21,6 +22,10 @@
     "redux": "^4.0.5",
     "sweetalert2": "^10.3.2",
     "video-react": "^0.14.1"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   },
   "scripts": {
     "start": "react-scripts start",
