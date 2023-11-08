@@ -47,7 +47,7 @@ export const Modal = ({
               <MoreInfo 
               id={id} 
               closeModal={closeModal}
-              website={website}
+              // website={website}
               githubFrontend={githubFrontend}
               githubBackend={githubBackend}
               github={github}

@@ -61,15 +61,15 @@ class Email extends React.Component {
               title: 'Email Successfully Sent',
               icon: 'success'
             })
-          })
+        })
           // Email Failed to send Error alert
-          .catch(err => {
+        .catch(err => {
             Swal.fire({
               title: 'Email Failed to Send',
               icon: 'error'
             })
             console.error('Email Error:', err)
-          })
+        })
           
       }
     
@@ -80,7 +80,7 @@ class Email extends React.Component {
             <div style={{fontSize: "1.2rem"}}>
 
               {/* <h6>Send me an email directly from here:</h6> */}
-                <div>
+                {/* <div>
                     <label htmlFor="name">Name</label>
                     <input className="form-control email-inputs" name="user_name" type="text" 
                     id="name" onChange={this.nameChange} value={this.state.name} required/>
@@ -103,11 +103,13 @@ class Email extends React.Component {
                     cols="20"
                     value={this.state.feedback}
                     />
-                </div>
+                </div> */}
+
+                <h2>Email Platform Coming Soon! </h2>
 
             </div>
 
-            <input type="submit" value="Submit" className="btn btn-outline-light" />
+            {/* <input type="submit" value="Submit" className="btn btn-outline-light" /> */}
             <br /><br /><br /><br /><br />
             {/* <ContactFun /> */}
           </form>

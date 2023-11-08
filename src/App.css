@@ -16,6 +16,15 @@ body {
   position: relative;
 }
 
+.footer {  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
 .footer p {
   font-size: .7rem;
 }

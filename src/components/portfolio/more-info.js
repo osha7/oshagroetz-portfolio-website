@@ -11,7 +11,7 @@ class MoreInfo extends React.Component {
             <div className="more-info">
                 <h1>More Info</h1>
                 <br />
-                <a href={this.props.website} target="_blank" rel="noopener noreferrer" >Website</a>
+                {/* <a href={this.props.website} target="_blank" rel="noopener noreferrer" >Website</a> */}
                 <br />
                 <a href={this.props.githubFrontend} target="_blank" rel="noopener noreferrer" >Github Frontend</a>
                 <br />
@@ -25,7 +25,7 @@ class MoreInfo extends React.Component {
                 <div className="more-info">
                 <h1>More Info</h1>
                 <br />
-                <a href={this.props.website} target="_blank" rel="noopener noreferrer" >Website</a>
+                {/* <a href={this.props.website} target="_blank" rel="noopener noreferrer" >Website</a> */}
                 <br />
                 <a href={this.props.github} target="_blank" rel="noopener noreferrer"  >Github</a>
                 <br /><br />
