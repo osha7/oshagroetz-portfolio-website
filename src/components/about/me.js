@@ -2,23 +2,24 @@ import React from 'react';
 
 export default function About() {
     return (
-        <> 
             <div className="me">
-                    <h1>about me...</h1>
-                    <br />
-                    <p>Technical Skills: Javascript, ReactJS, Redux, Redux Thunk, Ruby, Sinatra, Ruby on Rails, SQL, PostgreSQL, Axios, Adobe Ps/Ai/Id
-                    <br/><br/>My background ranges from being a 5 year partner in a restaurant/cafe chain in Vail & Denver, CO, as well having been formally trained in Fashion Design in NYC. While running our restaurants, I developed the company's brand, designing all of our menu boards, graphics and our wholesale packaging. I loved learning and working on the backend of the website to update menu items, locations, and press releases.
-                    <br/><br/>At the start of 2020, I decided that as the world was changing, so would I. I knew this change would have to involve a career where I would get to combine design and technology. 
-                    I attended Flatiron Schools unbelievable Software Engineering program in April 2020, and have recently graduated in September 2020.
-                    I have strong skills in project management, identifying and troubleshooting critical issues and team collaboration. 
-                    My background in business development and start-up growth will be an asset to my next role.
-                    <br/><br/>
-                    Originally hailing from New York/New Hampshire: My husband, our 4 year old Shiba Inu, Yoshi, and I currently live in Denver, CO. 
-                    I'm in search of a Software Engineering REMOTE position - Junior/Entry Level - Open to Relocation. </p>
-                    
-                <br />
-
+                <div style={{marginTop:'7em'}} >
+                    <h1 style={{marginBottom:'1em'}} ><span style={{ paddingLeft:'.25em'}}>about me...</span></h1>
+                </div>
+                <div style={{paddingBottom:'1em', marginRight:'2.5em', textAlign:'justify'}}>
+                    Results-driven software engineer with a passion for precision and expertise across multiple programming languages. 
+                    Proven proficiency in both frontend and backend development, adept at the entire software development lifecycle from debugging to deployment. 
+                    Possessing excellent interpersonal skills, I have a demonstrated track record of successful and robust collaboration within team environments.  
+                    I excel in understanding and aligning software development objectives with end-user needs. Eager to leverage my skills and contribute to the 
+                    implementation of cutting-edge software solutions within a dynamic team environment, while fostering professional growth.
+                </div>
+                <div style={{paddingBottom:'1em'}}>
+                    <p>Originally hailing from New York/New Hampshire, I currently live in Chicago, IL. </p>
+                    <p>I'm seeking a Software Engineering REMOTE position.</p>
+                </div>
+                <div>
+                    Technical Skills: Javascript, ReactJS, NodeJS, Typescript, Ruby, Ruby on Rails, GraphQL, Cypher, SQL
+                </div>
             </div>
-        </>
     )
 }

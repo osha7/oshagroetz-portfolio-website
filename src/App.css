@@ -8,6 +8,7 @@ body {
   /* background-color: #dddfd4; */
   /* background-color: #c5d5cb; */
   font-size: 1rem; /* default */
+  color: #304251;
 }
 
 .body-text {
@@ -30,7 +31,7 @@ body {
 }
 
 .footer a {
-  color: black;
+  color: #304251;
 }
 
 .hamburger-icon {
@@ -44,7 +45,7 @@ body {
 .hamburger-icon span {
   height: .3em;
   width: 2.5em;
-  background-color: black;
+  background-color: #304251;
   display: block;
   margin: .3em 0 .3em 0;
   transition: 0.7s ease-in-out;
@@ -89,7 +90,7 @@ div.menu-pane {
 }
 
 .menu-pane p {
-  color: black;
+  color: #304251;
   font-size: 0.6rem;
 }
 
@@ -192,7 +193,7 @@ input.hamburger-checkbox {
 }
 
 h1 {
-  background: black;
+  background: #304251;
   color: whitesmoke;
   font-size: 3.25rem;
   /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
@@ -221,7 +222,7 @@ h1 {
     margin-top: 15em;
   }
   .osha-about-pic {
-    margin-top: -15em;
+    margin-top: 50em;
   
   }
   

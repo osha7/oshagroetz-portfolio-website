@@ -6,7 +6,7 @@ import Hamburger from './menu/hamburger';
 import MenuPane from './menu/menu-pane';
 
 import Home from './home/home';
-import Portfolio from '../components/portfolio/portfolio'
+// import Portfolio from '../components/portfolio/portfolio'
 import Blog from '../components/blog/blog'
 import About from '../components/about/about'
 import Resume from '../components/resume/resume'
@@ -24,7 +24,7 @@ class App extends React.Component {
         <BrowserRouter>
           <MenuPane onClick={this.handleOnClick}/>
             <Route exact path="/" component={Home} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            {/* <Route exact path="/portfolio" component={Portfolio} /> */}
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/about" component={About} />
             <Route exact path="/resume" component={Resume} />

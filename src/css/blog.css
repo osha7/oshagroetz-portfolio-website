@@ -87,11 +87,11 @@
     font-size: 2.5rem;
     margin: 1.5rem 0 2rem;
     /* text-transform: uppercase; */
-    /* color: #4facfe; */
+    color: rgb(138, 109, 109);
     /* color: #00f2fecc */
-    background: -webkit-linear-gradient(0.5turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
+    /* background: -webkit-linear-gradient(0.5turn, #e6fb04, #ff6600, #ff00ff, #ff0099);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .blog-post__text{
