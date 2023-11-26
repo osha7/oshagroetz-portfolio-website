@@ -36,7 +36,7 @@ function ChatForm({token}) {
 
     const onChange = (event) => {
         setInputValue(event.target.value);
-        setState({"role": "user", "content": event.target.value})
+        setState({"role": "user", "content": event.target.value, "encrypted_token": token})
     }
 
     return (

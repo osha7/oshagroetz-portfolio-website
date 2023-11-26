@@ -350,5 +350,10 @@ h1 {
 /* -------------------END contact-------------------------- */
 
 
+#chat-form {
+  margin: 4em 2em;
+}
 
-
+.chat-thread{
+  margin: 4em;
+}
