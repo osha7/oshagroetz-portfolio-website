@@ -5,9 +5,8 @@ class MenuPane extends React.Component {
 
     handleOnClick = () => {
         document.getElementById("openmenu").checked = !document.getElementById("openmenu").checked
-          }
+    }
 
-          
     render() {
     return (
         <div id="menu-pane" className="menu-pane">
@@ -20,6 +19,7 @@ class MenuPane extends React.Component {
                     {/* <li><Link to="/portfolio" onClick={this.handleOnClick} >Portfolio</Link></li> */}
                     <li><Link to="/about" onClick={this.handleOnClick} >About</Link></li>
                     <li><Link to="/resume" onClick={this.handleOnClick} >Resume</Link></li>
+                    <li><Link to="ask-me-everything" onClick={this.handleOnClick} >AI Chat</Link></li>
                     <li><Link to="/blog" onClick={this.handleOnClick} >Blog</Link></li>
                     {/* <li><Link to="/contact" onClick={this.handleOnClick} >Contact</Link></li> */}
                     {/* NavLink would be used instead if using 'active styling' style={link} with const link = {} */}
@@ -28,8 +28,6 @@ class MenuPane extends React.Component {
         </div>
     );
     }
-  };
-  
-  export default MenuPane;
+};
 
-//   
+export default MenuPane;

@@ -11,6 +11,7 @@ import Blog from '../components/blog/blog'
 import About from '../components/about/about'
 import Resume from '../components/resume/resume'
 import Contact from '../components/contact/contact'
+import Chat from '../components/chat/chat'
 
 class App extends React.Component {
   
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/about" component={About} />
             <Route exact path="/resume" component={Resume} />
+            <Route exact path="/ask-me-everything" component={Chat} />
             <Route exact path="/contact" component={Contact} />
         </BrowserRouter>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
-import {ContactFun} from './contact-fun';
+// import {ContactFun} from './contact-fun';
 
 class Email extends React.Component {
 
