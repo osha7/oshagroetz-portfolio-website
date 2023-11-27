@@ -4,7 +4,7 @@ export const ChatThread = ({token, newQuestion}) => {
     const [state, setState] = useState()
 
     useEffect(() => {
-        let submitUrl = `http://localhost:3000/chats/${token}`
+        let submitUrl = `https://personal-portfolio-backend-api-b395670d7c6b.herokuapp.com/chats/${token}`
         fetch (submitUrl, {
             method: "get",
             headers: {
