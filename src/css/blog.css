@@ -8,27 +8,28 @@
 
 .blog {
     /* height: 50%; */
-    padding: .5em;
+    padding-top: 8em;
      
 }
 
 .blog-body {
-    width: 100%;
-    height: 100vh;
+    /* width: 90%; */
+    height: 22em;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: #eee; */
     background-color: white;
     /* background: linear-gradient(-90deg,  white, rgb(138, 109, 109)); */
-    margin-bottom: -13em;
-    padding: 0 5em 0 10em;
+    /* margin-bottom: -20em; */
+    padding: 0 14em 0 15em;
     /* padding: 0 1.5rem; */
 }
 
 .blog-post {
     width: 100%;
     max-width: 98rem;
+    height: 17em;
     padding: 5rem;
     background-color: white;
     /* background: linear-gradient(180deg,  white, rgb(138, 109, 109)); */
@@ -41,9 +42,9 @@
 
 .blog-post__img {
     
-    min-width: 35rem;
-    max-width: 35rem;
-    height: 20rem;
+    min-width: 17rem;
+    max-width: 17rem;
+    height: 10rem;
     transform: translate(-8rem);
     position: relative;
     
@@ -71,11 +72,15 @@
     box-shadow: .5rem .5rem 3 rem 1px rgba(0,0,0,.05);
     border-radius: .8rem;
 }
+.blog-post__info {
+    margin-left: -3em;
+}
+
 .blog-post__date span{
     display: block;
     color: rgba(138, 109, 109, .5);
 
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin: .5rem 0;
     /* background: -webkit-linear-gradient( #ff00ff, #ff0099);
@@ -84,7 +89,7 @@
 }
 
 .blog-post__title {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     margin: 1.5rem 0 2rem;
     /* text-transform: uppercase; */
     color: rgb(138, 109, 109);
@@ -102,10 +107,10 @@
 
 .blog-post__cta {
     display: inline-block;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1em;
     color: #fff;
     background-color:  rgb(138, 109, 109);
     /* background-image: linear-gradient(to left,white, rgb(138, 109, 109)); */
@@ -118,11 +123,10 @@
 .blog-post__cta:hover {
     background-image: linear-gradient(to left, white, rgb(138, 109, 109));
     color: rgb(138, 109, 109);
-    font-size: 22px;
+    font-size: 1.1em;
     font-weight: 600;
     padding-right: 1em;
     /* text-justify: right; */
-   
 }
 
 @media screen and (max-width: 1068px) {

@@ -42,7 +42,7 @@ export default class Blog extends React.Component {
                         <div className="blog-post__date">
                             
                             <span>{ moment(blog.pubDate.split(' ')[0]).format('MMMM Do, YYYY')}</span>
-                           
+                        
                         </div>
                         <h2 className="blog-post__title">{blog.title}</h2>
                         {/* <p>BLOG POST CONTENT</p> */}

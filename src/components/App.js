@@ -24,13 +24,13 @@ class App extends React.Component {
           <Hamburger />
         <BrowserRouter>
           <MenuPane onClick={this.handleOnClick}/>
-            <Route exact path="/" component={Home} />
-            {/* <Route exact path="/portfolio" component={Portfolio} /> */}
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/ask-me-everything" component={Chat} />
-            <Route exact path="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/portfolio" component={Portfolio} /> */}
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/ask-me-everything" component={Chat} />
+          <Route exact path="/contact" component={Contact} />
         </BrowserRouter>
       </div>
     );

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function ChatForm({token}) {     
+function ChatForm({token, stateCallback}) {     
     const [state, setState] = useState({})
     const [inputValue, setInputValue] = useState('');
 
@@ -19,6 +19,7 @@ function ChatForm({token}) {
         .then(resp => resp.json())
         .then(data => {
             console.log(data)
+            stateCallback(data)
         })
         // .then(data => this.setState(...state, {
         //     user: data.feed.url,
@@ -31,7 +32,6 @@ function ChatForm({token}) {
         // var form = document.getElementById("chat-form");
         // form.reset();
         setInputValue('')
-
     }
 
     const onChange = (event) => {

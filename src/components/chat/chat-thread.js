@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react';
 
-export const ChatThread = ({token}) => {
+export const ChatThread = ({token, newQuestion}) => {
     const [state, setState] = useState()
 
     useEffect(() => {
-        console.log({token})
         let submitUrl = `http://localhost:3000/chats/${token}`
         fetch (submitUrl, {
             method: "get",
@@ -20,12 +19,17 @@ export const ChatThread = ({token}) => {
             console.log({state})
         })
 
-    }, [token]);
+    }, [token, newQuestion]);
+
+    if (newQuestion.length > 0) {
+        setState({...state, newQuestion})
+    }
 
     return (
         <div className="chat-thread">
             <ul>
-                {state ? state.map(data => <li key={data.id}>{[Date(data.created_at)]} {data.content}</li> ) : null}
+                {/* {state ? state.map(data => <li key={data.id}>{[Date(data.created_at)]} {data.content}</li> ) : null} */}
+                {state ? state.map(data => <li key={data.id}>{data.content}</li> ) : null}
             </ul>
         </div>
     )

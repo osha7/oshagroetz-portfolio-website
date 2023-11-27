@@ -4,7 +4,7 @@ export default function About() {
     return (
             <div className="me">
                 <div style={{marginTop:'7em'}} >
-                    <h1 style={{marginBottom:'1em'}} ><span style={{ paddingLeft:'.25em'}}>about me...</span></h1>
+                    <h1 style={{marginBottom:'1em'}} ><span style={{ paddingLeft:'.25em'}}>about me</span></h1>
                 </div>
                 <div style={{paddingBottom:'1em', marginRight:'2.5em', textAlign:'justify'}}>
                     Results-driven software engineer with a passion for precision and expertise across multiple programming languages. 
