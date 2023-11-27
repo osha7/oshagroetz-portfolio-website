@@ -6,7 +6,7 @@ function ChatForm({token, stateCallback}) {
 
     function handleSubmit (event) {
         event.preventDefault();
-        let submitUrl = "http://localhost:3000/chats"
+        let submitUrl = "https://personal-portfolio-backend-api-b395670d7c6b.herokuapp.com/chats"
         fetch (submitUrl, {
             method: "post",
             headers: {

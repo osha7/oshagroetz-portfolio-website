@@ -49,7 +49,8 @@ const Chat = () => {
                 </div>
             </div>
             <div style={{marginTop:'-2em', textAlign: 'right'}}>
-                <h1 style={{width: '75%'}}><span style={{ paddingRight:'.25em'}}>ai chat</span></h1>
+                <h1 style={{width: '75%'}}><span style={{ paddingRight:'.25em'}}>ai chat </span></h1>
+                {/* <span style={{ fontSize: '10px'}}>with a chicagoan</span> */}
             </div>
             <div>
                 <ChatThread token={token} newQuestion={state} />
