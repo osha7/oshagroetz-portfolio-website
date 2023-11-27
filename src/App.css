@@ -380,7 +380,7 @@ ul .assistant-chat {
 .assistant-chat {
   width: 25em;
   border-radius: 1em;
-  background-color: white;
+  background-color: lightgray;
   box-shadow: 1em 1.4rem 2rem grey;
   /* color: white; */
   padding: 1em;
