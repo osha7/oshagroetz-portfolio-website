@@ -353,11 +353,39 @@ h1 {
 
 
 #chat-form {
-  margin: 4em 2em 0 2em;
+  margin: 4em 2em 0 3em;
 }
 
 .chat-thread{
-  margin: 2em 4em;
+  margin: 2em auto;
+  width: 75%;
+}
+
+ul .assistant-chat {
+  text-align: right;
+}
+
+.user-chat {
+  width: 25em;
+  border-radius: 1em;
+  background-color: #304251;
+  box-shadow: -1em 1.4rem 2rem grey;
+
+  color: white;
+  padding: 1em;
+  margin: 2em auto 2em 4em; /* Auto margin for left alignment */
+  list-style-type: none;
+}
+
+.assistant-chat {
+  width: 25em;
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 1em 1.4rem 2rem grey;
+  /* color: white; */
+  padding: 1em;
+  margin: 2em 4em 2em auto; /* Auto margin for right alignment */
+  list-style-type: none;
 }
 
 .chat-info{
@@ -365,3 +393,4 @@ h1 {
   width: 60em;
   font-size: 10px;
 }
+

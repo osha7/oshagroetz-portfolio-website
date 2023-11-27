@@ -4,7 +4,7 @@ export const ChatThread = ({token, newQuestion}) => {
     const [state, setState] = useState()
 
     useEffect(() => {
-        let submitUrl = `https://personal-portfolio-backend-api-b395670d7c6b.herokuapp.com/chats/${token}`
+        let submitUrl = `http://localhost:3000/chats/${token}`
         fetch (submitUrl, {
             method: "get",
             headers: {
@@ -25,11 +25,29 @@ export const ChatThread = ({token, newQuestion}) => {
         setState({...state, newQuestion})
     }
 
+    const mappedData = () => {
+        return state.map(data => {
+            if (data.role === "user") {
+                return (
+                <div className='user-chat'>
+                    <li key={data.id}>{data.content}</li>
+                </div>
+                )
+            } else {
+                return (
+                <div className='assistant-chat'>
+                    <li key={data.id} >{data.content}</li>
+                </div>
+                )
+            }
+        })
+    }
+
     return (
         <div className="chat-thread">
             <ul>
                 {/* {state ? state.map(data => <li key={data.id}>{[Date(data.created_at)]} {data.content}</li> ) : null} */}
-                {state ? state.map(data => <li key={data.id}>{data.content}</li> ) : null}
+                {state ? mappedData() : null}
             </ul>
         </div>
     )
